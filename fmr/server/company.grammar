@@ -1,5 +1,5 @@
-<company> = <location> (any{2,10}) <company_type>                 {nf.company($1,$2,$3)}
-          | <location> (any{2,10}) <company_scope> <company_type> {nf.company($1,$2,$4,$3)}
+<company> = <location> (any{2,10}) <company_type>                 {fmr.entity($@)} //{nf.company($1,$2,$3)}
+          | <location> (any{2,10}) <company_scope> <company_type> {fmr.entity($@)} //{nf.company($1,$2,$4,$3)}
           ;
 
 <company_type> = "厂"|"公司";
@@ -7,8 +7,8 @@
 <location> = <loc_county>                {nf.I($1)}
            | <loc_city>                  {nf.I($1)}
            | <loc_province>              {nf.I($1)}
-           | <loc_province> <loc_city>   {fmr.list($1, $2)}
-           | <loc_province> <loc_county> {fmr.list($1, $2)}
-           | <loc_city> <loc_county>     {fmr.list($1, $2)}
-           | <loc_province> <loc_city> <loc_county> {fmr.list($1, $2, $3)}
+           | <loc_province> <loc_city>   {fmr.list($1,$2)}
+           | <loc_province> <loc_county> {fmr.list($1,$2)}
+           | <loc_city> <loc_county>     {fmr.list($1,$2)}
+           | <loc_province> <loc_city> <loc_county> {fmr.list($1,$2,$3)}
            ;
