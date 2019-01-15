@@ -1,0 +1,83 @@
+=============== Jan 15, 2019 (CST) ===============
+16:12:40.088539 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:12:40.089760 db@open opening
+16:12:40.091506 version@stat F·[] S·0B[] Sc·[]
+16:12:40.092005 db@janitor F·2 G·0
+16:12:40.092049 db@open done T·2.255283ms
+=============== Jan 15, 2019 (CST) ===============
+16:12:40.266341 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:12:40.266806 version@stat F·[] S·0B[] Sc·[]
+16:12:40.266844 db@open opening
+16:12:40.266948 journal@recovery F·1
+16:12:40.268415 journal@recovery recovering @1
+16:12:40.280629 memdb@flush created L0@2 N·5775 S·99KiB "丁青,v4943":"龙..区,v4068"
+16:12:40.320039 version@stat F·[1] S·99KiB[99KiB] Sc·[0.25]
+16:12:40.322199 db@janitor F·3 G·0
+16:12:40.322248 db@open done T·55.385836ms
+=============== Jan 15, 2019 (CST) ===============
+16:12:40.401920 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:12:40.402258 version@stat F·[1] S·99KiB[99KiB] Sc·[0.25]
+16:12:40.402279 db@open opening
+16:12:40.402347 journal@recovery F·1
+16:12:40.403684 journal@recovery recovering @3
+16:12:40.405954 memdb@flush created L0@5 N·755 S·13KiB "七..河,v5908":"龙..市,v6011"
+16:12:40.407509 version@stat F·[2] S·112KiB[112KiB] Sc·[0.50]
+16:12:40.409451 db@janitor F·4 G·0
+16:12:40.409505 db@open done T·7.207203ms
+16:12:40.421948 table@compaction L0·2 -> L1·0 S·112KiB Q·6582
+16:12:40.426378 table@build created L1@8 N·6346 S·113KiB "丁青,v4943":"龙..区,v4068"
+16:12:40.426416 version@stat F·[0 1] S·113KiB[0B 113KiB] Sc·[0.00 0.00]
+16:12:40.426639 table@compaction committed F-1 S+667B Ke·0 D·184 T·4.649879ms
+16:12:40.426771 table@remove removed @5
+16:12:40.426867 table@remove removed @2
+=============== Jan 15, 2019 (CST) ===============
+16:12:40.456243 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:12:40.456582 version@stat F·[0 1] S·113KiB[0B 113KiB] Sc·[0.00 0.00]
+16:12:40.456603 db@open opening
+16:12:40.456671 journal@recovery F·1
+16:12:40.457922 journal@recovery recovering @6
+16:12:40.458894 memdb@flush created L0@9 N·77 S·1KiB "上海,v6552":"黑..省,v6549"
+16:12:40.460412 version@stat F·[1 1] S·114KiB[1KiB 113KiB] Sc·[0.25 0.00]
+16:12:40.462265 db@janitor F·4 G·0
+16:12:40.462363 db@open done T·5.712645ms
+16:12:40.472983 table@compaction L0·1 -> L1·1 S·114KiB Q·6661
+16:12:40.477443 table@build created L1@12 N·6419 S·115KiB "丁青,v4943":"龙..区,v4068"
+16:12:40.477482 version@stat F·[0 1] S·115KiB[0B 115KiB] Sc·[0.00 0.00]
+16:12:40.477738 table@compaction committed F-1 S+919B Ke·0 D·4 T·4.708736ms
+16:12:40.477838 table@remove removed @9
+16:12:40.477935 table@remove removed @8
+=============== Jan 15, 2019 (CST) ===============
+16:12:40.507246 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:12:40.507594 version@stat F·[0 1] S·115KiB[0B 115KiB] Sc·[0.00 0.00]
+16:12:40.507617 db@open opening
+16:12:40.507685 journal@recovery F·1
+16:12:40.508932 journal@recovery recovering @10
+16:12:40.510129 memdb@flush created L0@13 N·72 S·1KiB "专..社,v6643":"馆,v6663"
+16:12:40.511877 version@stat F·[1 1] S·116KiB[1KiB 115KiB] Sc·[0.25 0.00]
+16:12:40.513549 db@janitor F·4 G·0
+16:12:40.513592 db@open done T·5.961658ms
+16:12:40.524265 table@compaction L0·1 -> L1·1 S·116KiB Q·6735
+16:12:40.528847 table@build created L1@16 N·6491 S·117KiB "丁青,v4943":"龙..区,v4068"
+16:12:40.528885 version@stat F·[0 1] S·117KiB[0B 117KiB] Sc·[0.00 0.00]
+16:12:40.529145 table@compaction committed F-1 S+790B Ke·0 D·0 T·4.833519ms
+16:12:40.529252 table@remove removed @13
+16:12:40.529349 table@remove removed @12
+=============== Jan 15, 2019 (CST) ===============
+16:12:44.070947 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:12:44.071272 version@stat F·[0 1] S·117KiB[0B 117KiB] Sc·[0.00 0.00]
+16:12:44.071292 db@open opening
+16:12:44.071359 journal@recovery F·1
+16:12:44.072567 journal@recovery recovering @14
+16:12:44.074559 memdb@flush created L0@17 N·103 S·1KiB "不..钢,v6765":"食..植,v6760"
+16:12:44.076899 version@stat F·[1 1] S·119KiB[1KiB 117KiB] Sc·[0.25 0.00]
+16:12:44.078061 db@janitor F·4 G·0
+16:12:44.078093 db@open done T·6.78988ms
+=============== Jan 15, 2019 (CST) ===============
+16:14:16.352325 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:14:16.352604 version@stat F·[1 1] S·119KiB[1KiB 117KiB] Sc·[0.25 0.00]
+16:14:16.352626 db@open opening
+16:14:16.352694 journal@recovery F·1
+16:14:16.353930 journal@recovery recovering @18
+16:14:16.357117 version@stat F·[1 1] S·119KiB[1KiB 117KiB] Sc·[0.25 0.00]
+16:14:16.359438 db@janitor F·4 G·0
+16:14:16.359474 db@open done T·6.83446ms
